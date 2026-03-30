@@ -1142,8 +1142,65 @@ cells.append(
         plt.tight_layout()
         plt.show()
 
-        top_results = comparison_df[["model", "test_accuracy", "test_macro_f1"]].copy()
-        display(top_results.style.format({"test_accuracy": "{:.3f}", "test_macro_f1": "{:.3f}"}))
+        summary_models = [
+            "CNN-small" if "CNN-small" in set(combined_shift_df["model"]) else best_cnn_name,
+            "PCA + Logistic regression",
+            "Autoencoder latent + Logistic regression",
+        ]
+        clean_scores = (
+            combined_shift_df[combined_shift_df["shift"] == "Clean"]
+            .set_index("model")["macro_f1"]
+        )
+        average_shift_drop = (
+            combined_shift_df[combined_shift_df["shift"] != "Clean"]
+            .groupby("model")["macro_f1_drop"]
+            .mean()
+        )
+        compact_summary_df = pd.DataFrame(
+            {
+                "model": summary_models,
+                "clean_test_macro_f1": [clean_scores[model] for model in summary_models],
+                "avg_shift_drop": [average_shift_drop[model] for model in summary_models],
+            }
+        )
+
+        fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+        bar_colors = ["#264653", "#2A9D8F", "#E9C46A"]
+
+        clean_bars = axes[0].bar(
+            compact_summary_df["model"],
+            compact_summary_df["clean_test_macro_f1"],
+            color=bar_colors,
+        )
+        axes[0].set_ylim(0, 1.0)
+        axes[0].set_ylabel("Macro F1")
+        axes[0].set_title("Clean test performance")
+        axes[0].tick_params(axis="x", rotation=18)
+        axes[0].bar_label(clean_bars, fmt="%.3f", padding=3)
+
+        drop_bars = axes[1].bar(
+            compact_summary_df["model"],
+            compact_summary_df["avg_shift_drop"],
+            color=bar_colors,
+        )
+        axes[1].set_ylim(0, max(compact_summary_df["avg_shift_drop"]) + 0.08)
+        axes[1].set_ylabel("Average macro F1 drop")
+        axes[1].set_title("Average penalty under distribution shift")
+        axes[1].tick_params(axis="x", rotation=18)
+        axes[1].bar_label(drop_bars, fmt="%.3f", padding=3)
+
+        plt.suptitle("Compact executive-summary view of performance and robustness", y=1.02)
+        plt.tight_layout()
+        plt.show()
+
+        display(
+            compact_summary_df.style.format(
+                {
+                    "clean_test_macro_f1": "{:.3f}",
+                    "avg_shift_drop": "{:.3f}",
+                }
+            )
+        )
 
         best_model_name = comparison_df.iloc[0]["model"]
         best_model_f1 = comparison_df.iloc[0]["test_macro_f1"]
