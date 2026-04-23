@@ -1,0 +1,11 @@
+filename,path,expected_simplified_class,resnet_prediction,resnet_confidence,zero_shot_prediction,zero_shot_confidence,zero_shot_top2_class,zero_shot_top2_confidence,zero_shot_top3_class,zero_shot_top3_confidence,resnet_correct,zero_shot_correct
+000024400034.JPEG,data/real_world_images/raw/000024400034.JPEG,top,top,0.9140336513519288,top,0.7874808311462402,dress,0.08227341622114182,outerwear,0.06556417793035507,True,True
+ACS_0641.JPG,data/real_world_images/raw/ACS_0641.JPG,outerwear,outerwear,0.3256614208221435,top,0.7019611597061157,outerwear,0.15792550146579742,dress,0.061053745448589325,True,False
+IMG_0746.jpg,data/real_world_images/raw/IMG_0746.jpg,top,outerwear,0.5987973213195801,top,0.6634366512298584,outerwear,0.2391747534275055,bag,0.055741336196660995,False,True
+IMG_2644.jpg,data/real_world_images/raw/IMG_2644.jpg,top,top,0.8162105679512024,top,0.7443175911903381,dress,0.16645930707454681,outerwear,0.043071527034044266,True,True
+IMG_2645.jpg,data/real_world_images/raw/IMG_2645.jpg,top,top,0.9530348777770996,top,0.6915261745452881,dress,0.25366854667663574,bag,0.02359124831855297,True,True
+IMG_2646.PNG,data/real_world_images/raw/IMG_2646.PNG,trouser,outerwear,0.3965788185596466,dress,0.3229732811450958,bag,0.3085549771785736,trouser,0.24621175229549408,False,False
+IMG_2647.PNG,data/real_world_images/raw/IMG_2647.PNG,top,top,0.7941815257072449,top,0.5036906599998474,dress,0.4151623547077179,outerwear,0.06611938029527664,True,True
+IMG_2649.PNG,data/real_world_images/raw/IMG_2649.PNG,trouser,trouser,0.482782244682312,trouser,0.5859123468399048,top,0.22342035174369812,dress,0.08289755880832672,True,True
+IMG_2650.jpg,data/real_world_images/raw/IMG_2650.jpg,footwear,footwear,0.6841838955879211,footwear,0.7145143747329712,trouser,0.15526343882083893,top,0.10719170421361923,True,True
+IMG_4078.jpg,data/real_world_images/raw/IMG_4078.jpg,dress,top,0.5616496205329895,dress,0.8799279928207397,top,0.09603329002857208,outerwear,0.016757233068346977,False,True

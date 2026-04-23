@@ -1,12 +1,12 @@
 query_filename,query_expected_class,query_resnet_prediction,query_resnet_confidence,top1_neighbor_class,top1_similarity,top5_neighbor_classes,top1_matches_expected,top5_contains_expected
-000024400034.JPEG,top,top,0.9140336513519288,top,0.7439550161361694,"top, top, top, top, dress",True,True
-ACS_0641.JPG,outerwear,outerwear,0.3256614208221435,top,0.7306286692619324,"top, top, bag, top, top",False,False
-IMG_0746.jpg,top,outerwear,0.5987973213195801,outerwear,0.7829269766807556,"outerwear, outerwear, outerwear, top, outerwear",False,True
-IMG_2644.jpg,top,top,0.8162105679512024,dress,0.7626194953918457,"dress, top, top, outerwear, top",False,True
-IMG_2645.jpg,top,top,0.9530348777770996,top,0.7637081146240234,"top, top, top, top, top",True,True
-IMG_2646.PNG,trouser,outerwear,0.3965788185596466,outerwear,0.7046047449111938,"outerwear, dress, trouser, dress, dress",False,True
-IMG_2647.PNG,top,top,0.7941815257072449,top,0.7814393043518066,"top, top, top, top, top",True,True
-IMG_2648.PNG,unidentified,top,0.8753706812858582,top,0.796127438545227,"top, top, top, top, top",,
-IMG_2649.PNG,trouser,trouser,0.482782244682312,dress,0.7335166931152344,"dress, trouser, dress, trouser, dress",False,True
+000024400034.JPEG,top,top,0.9140336513519288,top,0.743955135345459,"top, top, top, top, dress",True,True
+ACS_0641.JPG,outerwear,outerwear,0.3256614208221435,top,0.7306288480758667,"top, top, bag, top, top",False,False
+IMG_0746.jpg,top,outerwear,0.5987973213195801,outerwear,0.7829270958900452,"outerwear, outerwear, outerwear, top, outerwear",False,True
+IMG_2644.jpg,top,top,0.8162105679512024,dress,0.7626196146011353,"dress, top, top, outerwear, top",False,True
+IMG_2645.jpg,top,top,0.9530348777770996,top,0.76370769739151,"top, top, top, top, top",True,True
+IMG_2646.PNG,trouser,outerwear,0.3965788185596466,outerwear,0.7046045660972595,"outerwear, dress, trouser, dress, dress",False,True
+IMG_2647.PNG,top,top,0.7941815257072449,top,0.7814391851425171,"top, top, top, top, top",True,True
+IMG_2648.PNG,unidentified,top,0.8753706812858582,top,0.7961273789405823,"top, top, top, top, top",,
+IMG_2649.PNG,trouser,trouser,0.482782244682312,dress,0.7335168123245239,"dress, trouser, dress, trouser, dress",False,True
 IMG_2650.jpg,footwear,footwear,0.6841838955879211,footwear,0.7870209217071533,"footwear, footwear, footwear, footwear, footwear",True,True
-IMG_4078.jpg,dress,top,0.5616496205329895,top,0.7680168151855469,"top, top, dress, top, top",False,True
+IMG_4078.jpg,dress,top,0.5616496205329895,top,0.7680166959762573,"top, top, dress, top, top",False,True
