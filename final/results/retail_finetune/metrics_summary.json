@@ -1,0 +1,16 @@
+{
+  "retail_test_accuracy": 0.2777777777777778,
+  "retail_test_macro_f1": 0.19666666666666668,
+  "class_names": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ]
+}

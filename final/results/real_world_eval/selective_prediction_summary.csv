@@ -1,0 +1,4 @@
+confidence_threshold,scored_total_images,accepted_scored_images,reviewed_scored_images,scored_coverage,accepted_correct_images,accepted_accuracy,accepted_macro_f1,unscored_unidentified_images,unscored_high_confidence_predictions
+0.5,10,7,3,0.7,5,0.7142857142857143,0.45,1,1
+0.7,10,4,6,0.4,4,1.0,,1,1
+0.85,10,2,8,0.2,2,1.0,,1,1

@@ -1,0 +1,12 @@
+filename,path,expected_simplified_class,notes,status
+000024400034.JPEG,data/real_world_images/raw/000024400034.JPEG,top,dominant visible white top,included
+ACS_0641.JPG,data/real_world_images/raw/ACS_0641.JPG,outerwear,dominant white jacket/outer layer,included
+IMG_0746.jpg,data/real_world_images/raw/IMG_0746.jpg,top,hoodie/pullover; simplified as top,included
+IMG_2644.jpg,data/real_world_images/raw/IMG_2644.jpg,top,dominant colorful sleeveless top,included
+IMG_2645.jpg,data/real_world_images/raw/IMG_2645.jpg,top,dominant white top,included
+IMG_2646.PNG,data/real_world_images/raw/IMG_2646.PNG,trouser,pants close-up,included
+IMG_2647.PNG,data/real_world_images/raw/IMG_2647.PNG,top,dominant white sweater/top,included
+IMG_2648.PNG,data/real_world_images/raw/IMG_2648.PNG,unidentified,romper/one-piece outfit; ambiguous between top and dress,included
+IMG_2649.PNG,data/real_world_images/raw/IMG_2649.PNG,trouser,dominant pants/overalls lower garment,included
+IMG_2650.jpg,data/real_world_images/raw/IMG_2650.jpg,footwear,sneakers,included
+IMG_4078.jpg,data/real_world_images/raw/IMG_4078.jpg,dress,dominant blue dress,included

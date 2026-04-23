@@ -1,0 +1,12 @@
+filename,path,expected_simplified_class,predicted_class,top1_confidence,top2_class,top2_confidence,top3_class,top3_confidence,confidence_margin,correct,notes
+000024400034.JPEG,data/real_world_images/raw/000024400034.JPEG,top,top,0.9140336513519287,dress,0.07145902514457703,trouser,0.006840481888502836,0.8425745964050293,True,dominant visible white top
+ACS_0641.JPG,data/real_world_images/raw/ACS_0641.JPG,outerwear,outerwear,0.32566142082214355,top,0.3148413300514221,bag,0.16612839698791504,0.010820090770721436,True,dominant white jacket/outer layer
+IMG_0746.jpg,data/real_world_images/raw/IMG_0746.jpg,top,outerwear,0.5987973213195801,top,0.3490782380104065,dress,0.028235509991645813,0.24971908330917358,False,hoodie/pullover; simplified as top
+IMG_2644.jpg,data/real_world_images/raw/IMG_2644.jpg,top,top,0.8162105679512024,outerwear,0.09231815487146378,dress,0.07069149613380432,0.7238923907279968,True,dominant colorful sleeveless top
+IMG_2645.jpg,data/real_world_images/raw/IMG_2645.jpg,top,top,0.9530348777770996,outerwear,0.02386138029396534,dress,0.008706999011337757,0.929173469543457,True,dominant white top
+IMG_2646.PNG,data/real_world_images/raw/IMG_2646.PNG,trouser,outerwear,0.3965788185596466,trouser,0.18175597488880157,bag,0.13959340751171112,0.21482284367084503,False,pants close-up
+IMG_2647.PNG,data/real_world_images/raw/IMG_2647.PNG,top,top,0.7941815257072449,outerwear,0.13702121376991272,dress,0.04585988074541092,0.6571602821350098,True,dominant white sweater/top
+IMG_2648.PNG,data/real_world_images/raw/IMG_2648.PNG,unidentified,top,0.8753706812858582,dress,0.09113746881484985,trouser,0.01597151719033718,0.7842332124710083,,romper/one-piece outfit; ambiguous between top and dress
+IMG_2649.PNG,data/real_world_images/raw/IMG_2649.PNG,trouser,trouser,0.482782244682312,dress,0.1943921148777008,bag,0.17760658264160156,0.2883901298046112,True,dominant pants/overalls lower garment
+IMG_2650.jpg,data/real_world_images/raw/IMG_2650.jpg,footwear,footwear,0.6841838955879211,bag,0.1351771503686905,trouser,0.11794918030500412,0.5490067601203918,True,sneakers
+IMG_4078.jpg,data/real_world_images/raw/IMG_4078.jpg,dress,top,0.5616496205329895,dress,0.3867635726928711,bag,0.023987216874957085,0.1748860478401184,False,dominant blue dress

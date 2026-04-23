@@ -1,0 +1,2 @@
+stage,epoch,train_loss,val_loss,val_accuracy,val_macro_f1,epoch_seconds
+frozen_head,1,1.9139846563339233,1.7865465879440308,0.25,0.1619047619047619,0.4699850082397461

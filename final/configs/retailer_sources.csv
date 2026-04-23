@@ -1,0 +1,61 @@
+source_name,url,fashion_mnist_class,notes
+Brandy Melville tops,https://us.brandymelville.com/collections/clothing-tops,T-shirt/top,Strong noisy-background candidate; Brandy category grid often has real-world room/street context.
+Brandy Melville tops page 4,https://us.brandymelville.com/collections/clothing-tops?page=4,T-shirt/top,Paginated variant for more examples; useful when page 1 repeats hero-heavy products.
+Free People tops,https://www.freepeople.com/tops/,T-shirt/top,Lifestyle/editorial-heavy tops category; good for domain shift beyond centered grayscale items.
+Free People tees,https://www.freepeople.com/tees/,T-shirt/top,More directly aligned with T-shirt/top class; still includes styled model photography.
+Zara women's T-shirts,https://www.zara.com/us/en/woman-tshirts-l1362.html,T-shirt/top,Fast-moving retail category with model shots and more varied backgrounds than clean catalog cutouts.
+Reformation tops,https://www.thereformation.com/tops,T-shirt/top,"Editorial fashion styling; useful for real-world pose, lighting, and background variation."
+Anthropologie all tops,https://www.anthropologie.com/all-tops,T-shirt/top,Mixed tees/tanks/blouses with body-worn imagery and varied retail styling.
+Brandy Melville pants,https://us.brandymelville.com/collections/pants,Trouser,Strong noisy-background candidate; on-body pants images with room/street context.
+Free People pants,https://www.freepeople.com/pants/,Trouser,"Broad pants category with varied poses, fabrics, and non-MNIST styling."
+Free People trousers + tailored pants,https://www.freepeople.com/structured-pants/,Trouser,Closer semantic match to trouser class than generic bottoms; useful for cleaner label mapping.
+Free People wide-leg pants,https://www.freepeople.com/wide-leg-pants/,Trouser,Adds silhouette diversity while staying in trouser-like bottoms.
+Zara women's trousers,https://www.zara.com/us/en/woman-trousers-l1335.html,Trouser,Good source of real-world trouser imagery with pose and background variation.
+Zara wide-leg pants,https://www.zara.com/us/en/woman-trousers-wide-l1360.html,Trouser,Wide-leg subset for more shape diversity.
+Princess Polly pants,https://us.princesspolly.com/collections/pants,Trouser,Youth fashion retailer with lifestyle-leaning product photos.
+Free People pullovers,https://www.freepeople.com/pullovers/,Pullover,Directly aligned to pullover class; sweater-specific category reduces cardigan noise.
+Free People sweaters,https://www.freepeople.com/sweaters/,Pullover,Broader knitwear source with strong styling and texture variation.
+Zara women's sweaters,https://www.zara.com/us/en/woman-knitwear-sweaters-l1165.html,Pullover,Good for modern knitwear shots with varied framing.
+Anthropologie sweaters,https://www.anthropologie.com/tops-sweaters,Pullover,Mixed pullovers/cardigans; useful when you can later filter by title text if needed.
+Reformation sweaters,https://www.thereformation.com/sweaters,Pullover,Editorial styling with strong real-world lighting and pose variation.
+Princess Polly sweaters,https://us.princesspolly.com/collections/sweaters-cardigans,Pullover,Sweaters/cardigans mix; useful if scraped with title-based filtering.
+Free People dresses,https://www.freepeople.com/dresses/,Dress,Strong lifestyle/editorial candidate with many full-body dress shots.
+Anthropologie dresses,https://www.anthropologie.com/dresses,Dress,Large dress grid with varied poses and richer backgrounds than standard dataset imagery.
+Reformation dresses,https://www.thereformation.com/dresses,Dress,High-quality editorial styling; excellent for domain shift.
+Zara dresses,https://www.zara.com/us/en/woman-dresses-l1066.html,Dress,Fast-fashion dresses with pose/background diversity.
+Aritzia dresses,https://www.aritzia.com/us/en/clothing/dresses?lastViewed=72,Dress,Good fashion e-commerce dress category with realistic lighting and body context.
+Princess Polly dresses,https://us.princesspolly.com/collections/dresses,Dress,Young fashion retailer with strong on-body product imagery.
+Free People jackets + coats,https://www.freepeople.com/jackets/,Coat,Outerwear category with clear coat/jacket samples and styled scenes.
+Free People statement jackets,https://www.freepeople.com/statement-jackets/,Coat,Adds more dramatic outerwear looks and texture/background variety.
+Reformation outerwear,https://www.thereformation.com/clothing/outerwear,Coat,Editorial outerwear page with coats and jackets in realistic styling.
+Reformation jackets and coats,https://www.thereformation.com/clothing/outerwear/jackets-coats,Coat,Tighter mapping to coat/jacket class than full outerwear page.
+Zara women's coats,https://www.zara.com/us/en/woman-outerwear-l1184.html,Coat,Good source of long coats and structured outerwear with diverse poses.
+Urban Outfitters jackets + coats,https://www.urbanoutfitters.com/womens-jackets-coats,Coat,Useful mixed streetwear/casual outerwear page.
+Free People sandals,https://www.freepeople.com/sandals/,Sandal,Footwear page with body-styled/editorial product shots.
+Anthropologie sandals,https://www.anthropologie.com/shoes-sandals,Sandal,Large sandals category; more product-focused than apparel but still useful.
+Zara women's sandals,https://www.zara.com/us/en/woman-shoes-sandals-l1280.html,Sandal,Fashion sandals with varied product framing and some styled shots.
+Zara flat sandals,https://www.zara.com/us/en/woman-shoes-sandals-flat-l1282.html,Sandal,Closer match to flatter sandal silhouettes.
+Princess Polly sandals,https://us.princesspolly.com/collections/sandals,Sandal,Fashion retailer sandals category; decent complementary source.
+Urban Outfitters sandals,https://www.urbanoutfitters.com/womens-sandals,Sandal,Useful backup source; expect a mix of clean and noisier shots.
+Free People blouses,https://www.freepeople.com/blouses/,Shirt,Good proxy for shirt/blouse class with strong lifestyle styling.
+Anthropologie blouses,https://www.anthropologie.com/tops-blouses,Shirt,Broad blouse category with on-body imagery and varied backgrounds.
+Zara shirts + blouses,https://www.zara.com/us/en/woman-shirts-blouses-l1221.html,Shirt,Useful for more structured shirts and fashion blouses.
+Princess Polly shirts + blouses,https://us.princesspolly.com/collections/shirts-blouses,Shirt,Good supplemental source with younger styling and more casual poses.
+Urban Outfitters shirts + blouses,https://www.urbanoutfitters.com/womens-shirts-blouses,Shirt,Mixed casual/editorial styling; good extra variety.
+Free People sneakers,https://www.freepeople.com/sneakers/,Sneaker,Fashion sneaker category with stronger styling than many shoe-only retailers.
+Anthropologie sneakers,https://www.anthropologie.com/shoes-sneakers,Sneaker,Useful modern sneaker grid with some body/styled imagery.
+Zara sneakers,https://www.zara.com/us/en/woman-shoes-sneakers-l1287.html,Sneaker,Fashion-oriented sneaker page with non-athletic styling.
+Princess Polly sneakers,https://us.princesspolly.com/collections/sneakers,Sneaker,Supplemental sneaker source aligned with apparel styling.
+Urban Outfitters sneakers,https://www.urbanoutfitters.com/womens-sneakers,Sneaker,Backup source for more casual retail imagery.
+Free People bags,https://www.freepeople.com/bags/,Bag,Handbag category with more styling context than plain white-background marketplaces.
+Anthropologie bags,https://www.anthropologie.com/bags,Bag,Broad bag page with distinctive styling and accessory context.
+Zara bags,https://www.zara.com/us/en/woman-bags-l1024.html,Bag,Fashion-forward bag grid with varied shapes and retail styling.
+Zara shoulder bags,https://www.zara.com/us/en/woman-bags-shoulder-l1924.html,Bag,Useful subtype page if you want more consistent handbag framing.
+Princess Polly bags,https://us.princesspolly.com/collections/bags,Bag,Supplemental accessory source with trend-focused imagery.
+Urban Outfitters bags + wallets,https://www.urbanoutfitters.com/womens-bags-wallets,Bag,Useful backup source; expect some cleaner product tiles.
+Free People ankle boots,https://www.freepeople.com/ankle-boots/,Ankle boot,Direct match to Fashion-MNIST ankle boot class.
+Free People boots,https://www.freepeople.com/boots/,Ankle boot,Broader boots category; use title filtering if you want ankle-only examples.
+Anthropologie boot shop,https://www.anthropologie.com/shoes-boot-shop,Ankle boot,Mixed boots page with many booties/ankle silhouettes.
+Zara ankle boots,https://www.zara.com/us/en/woman-shoes-ankle-boots-l1259.html,Ankle boot,Direct class match with strong fashion styling.
+Zara boots,https://www.zara.com/us/en/woman-shoes-boots-l1263.html,Ankle boot,Broader boots category; helpful for extra volume.
+Princess Polly boots,https://us.princesspolly.com/collections/boots,Ankle boot,Supplemental fashion boots source; later filter titles to ankle/bootie variants if needed.

@@ -1,0 +1,15 @@
+{
+  "retail_test_accuracy": 0.801980198019802,
+  "retail_test_macro_f1": 0.8036002723502723,
+  "class_names": [
+    "top",
+    "trouser",
+    "dress",
+    "outerwear",
+    "footwear",
+    "bag"
+  ],
+  "label_column": "simplified_class",
+  "model": "mobilenet_v3_small",
+  "split_path": "data/retail_images/metadata/splits_raw_full_simplified6.csv"
+}
