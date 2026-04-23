@@ -19,7 +19,7 @@ from retail_common import CLASS_NAMES, METADATA_DIR, RESULTS_DIR
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Create EDA figures for the retailer image dataset.")
-    parser.add_argument("--validated", type=Path, default=METADATA_DIR / "validated_images.csv")
+    parser.add_argument("--validated", type=Path, default=METADATA_DIR / "validated_raw_images.csv")
     parser.add_argument("--splits", type=Path, default=METADATA_DIR / "splits.csv")
     parser.add_argument("--output-dir", type=Path, default=RESULTS_DIR)
     parser.add_argument("--examples-per-class", type=int, default=3)
@@ -35,6 +35,12 @@ def load_usable(path: Path) -> pd.DataFrame:
     usable = frame[frame["usable"]].copy()
     if usable.empty:
         raise ValueError("No usable retailer images found.")
+    segmented_paths = usable["path"].astype(str).str.contains("/segmented/|data/retail_images/segmented")
+    if segmented_paths.any():
+        raise ValueError(
+            "EDA figures should use raw/full retailer images, not segmented crops. "
+            "Pass validated_raw_images.csv or another raw-image metadata file."
+        )
     return usable
 
 

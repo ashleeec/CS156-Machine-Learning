@@ -2,3 +2,9 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .matplotlib/
+.ipynb_checkpoints/
+.pytest_cache/
+*.aux
+*.log
+*.out
+*.rendered.md
